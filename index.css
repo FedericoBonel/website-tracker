@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-width: 400px;
+}
+
+.app__container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.app__container input {
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid #5F9341;
+    outline: none;
+}
+
+.app__container button {
+    margin: 0.25rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    background: #5F9341;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.app__container button:hover{
+    background: green;
+}
+.app__container button:active{
+    background: darkgreen;
+}
+
+#delete-btn {
+    background: white;
+    color: #5F9341;
+    border: 1px solid #5F9341;
+    transition: 0.3s;
+}
+#delete-btn:hover {
+    background: lightgray;
+}
+#delete-btn:active {
+    background: orange;
+}
+
+.app__container ul {
+    list-style: none;
+    padding: 0;
+}
+.app__container li {
+    margin: 0.5rem 0;
+}
+.app__container li a {
+    color: #5F9341;
+}
